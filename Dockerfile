@@ -8,4 +8,5 @@ RUN     wget https://github.com/adnanh/webhook/releases/download/2.6.8/webhook-l
     &&  chmod +x ./webhook \
     &&  rm -fR webhook-linux-amd64.tar.gz webhook-linux-amd64 \
     &&  ls -l
+EXPOSE 9000    
 ENTRYPOINT [ "./webhook", "-hooks", ${HOOKS_FILE}, "-verbose" ]
