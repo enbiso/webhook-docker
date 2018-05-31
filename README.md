@@ -1,11 +1,13 @@
-Webhook docker
+Webhook docker with inbuild docker executables
 ===
 
-Webhook docker based on https://github.com/adnanh/webhook/releases
+Webhook docker based on https://github.com/adnanh/webhook/releases with
+- Docker executables
+- Docker Compose
 
 ## Environment variables
 
-HOOKS_FILE 
+`HOOKS_FILE `
 defines the hooks file
 
 ## Usage
