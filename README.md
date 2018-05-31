@@ -1,7 +1,7 @@
 Webhook docker with inbuild docker executables
 ===
 
-Webhook docker based on https://github.com/adnanh/webhook/releases with
+Webhook docker based on https://github.com/adnanh/webhook with
 - Docker executables
 - Docker Compose
 
